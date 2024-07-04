@@ -1,0 +1,44 @@
+body {
+    transition: all ease-in-out 0.7s;
+    background-color: #F9F7ED;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+header {
+    height: 30vh;
+    flex-direction: column;
+}
+
+main {
+    min-height: 70vh;
+}
+
+.logo {
+    margin-top: 30px;
+    width: 150px;
+}
+
+.completo {
+    text-decoration: line-through;
+}
+
+footer {
+    height: 10vh;
+}
+
+.fotointegrantes{
+    width: 250px;
+    padding-top: 10px;
+}
+
+@media screen and (min-width: 480px) {
+
+    body {
+        overflow-x: hidden;
+    }
+}    
